@@ -1,0 +1,127 @@
+@charset "UTF 8";
+/***
+ul {
+ border: 1px solid red;
+ list-style-type: none;
+ margin: 0px;
+ padding: 0px;
+}
+li{
+    padding : 5px 20px;
+    border: 1px solid red;
+    background: url(imagem/seta.png) no-repeat left center;
+}
+*/
+/*****
+  ul {
+      margin: 0%;
+      padding: 0%;
+      list-style-type: none;
+  }
+ ul a {
+    
+    width: 200px;
+    height: 40px;
+    display: block;
+    color: black;
+    text-decoration: none;
+    text-indent: 40px;
+    line-height: 40px;
+    background: chocolate url(imagem/menu.png);
+}
+
+a:hover{
+    background-position: right bottom;
+    background-color: #f99200;
+    color: #fff;
+}
+#home .home a,
+#sobre .sobre a,
+#servicos .servicos a,
+#noticias  .noticias a
+{
+background-position: right bottom;
+background-color: #f99200;
+color: #fff;
+}
+*/
+/************
+barra de navegação horizontal 
+
+ul{
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+    width: 720px;
+    background: #159cb0 url(imagem/fundo-horizontal.png);
+    float: left;
+
+}
+ul li {
+   
+    float: left;
+    
+}
+
+ul a {
+    display: block;
+    padding: 0 2em;
+    line-height: 2em;
+    text-decoration: none;
+    color: snow;
+    background: url(imagem/divisor.png) repeat-y; 
+}
+
+ul a:hover{
+    color: #085662;
+    background-color: #44cade;
+}
+#home .home a,
+#sobre .sobre a,
+#servicos .servicos a,
+#noticias  .noticias a {
+    color: #085662;
+    background-color: #44cade;
+
+}
+*/
+/******
+Barras  de navegação com abas */
+
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+ul {
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+    width: 720px;
+}
+ul li {
+    float: left;
+    background: url(imagem/aba-direita.png) no-repeat top right; 
+}
+
+li a {
+    display: block;
+    padding: 0 2em;
+    line-height: 3em;
+    text-decoration: none;
+    background: url(imagem/aba-esquerda.png) no-repeat top left;
+    color: snow;
+}
+ul a:hover{
+    color: #894a1f;
+
+}
+ul #atual {
+    background: url(imagem/aba-direita-atual.png)  no-repeat top right;
+     
+}
+
+ul #atual a {
+    background: url(imagem/aba-esquerda-atual.png)no-repeat top left;
+}
+
+

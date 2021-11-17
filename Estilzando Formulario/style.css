@@ -1,0 +1,29 @@
+@charset "UF-8";
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+fieldset{
+    margin: 1em 0;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f8f8f8ea;
+}
+
+legend{
+    font-weight: bold;
+
+}
+
+label{
+   display: block;
+   cursor: pointer;
+}
+
+input [type="text"]{
+    width: 20em;
+   
+}
+
