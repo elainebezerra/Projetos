@@ -5,6 +5,7 @@
 *{
     margin: 0;
     padding: 0;
+    
 }
 
 body {
@@ -88,6 +89,7 @@ main{
     
     width: 750px;
     margin: 0 auto;
+    background: #f5f5f5;
     
 }
 #conteudo{
@@ -99,6 +101,8 @@ main{
     width:  180px;
     float: left;
     margin: 5px 20px 20px auto;
+    background: #f5f5f5;
+
 }
 
 
@@ -106,6 +110,7 @@ main{
 #primeiro {
     width: 270px;
     float: left;
+    background: #f5f5f5;
     
     margin: 5px 5px 20px auto;
 }
@@ -113,6 +118,7 @@ main{
 #duas-colunas #primeiro {
     width: 485px;
     float: left;
+    background: #f5f5f5;
    
     margin: 5px 5px 20px auto;
   
@@ -123,6 +129,7 @@ main{
     width: 750px; 
     float: left;
     margin: 0 0 20px 0;
+    background: #f5f5f5;
    
     
 }
@@ -132,6 +139,7 @@ main{
     width:  270px;
     float: left;
     margin: 5px 5px 20px auto;
+    background: #f5f5f5;
 
 }
 /*formatar mundo */
@@ -142,6 +150,7 @@ img.imagem-mundo{
     border: 3px solid  #dfdfdf; 
     float: left;
     margin: 5px;
+    background: #f5f5f5;
 }
 
 #lista {
@@ -150,18 +159,22 @@ img.imagem-mundo{
     height: 65px;
     text-decoration: none;
     font-size: 0.8em;
+    
         
 }
 
 #lista h3 {
     color:rgba(4, 4, 94, 0.74);
     text-decoration: none;
+    background: #f5f5f5;
+    
    
 }
 
 #lista p {
     color: black;
     text-decoration: none;
+    text-align: justify;
 }
 #lista h3:hover{
     background:#de003e;
@@ -184,6 +197,7 @@ img.imagem-mundo{
     text-decoration: none;
     border-bottom: 1px solid #f3f3f3;
     border-radius: 5px;
+    
 }
 
 #lateral ul a:hover {
@@ -253,17 +267,29 @@ p {
 
 /*caixa*/
 .caixa {
-margin: 10px 0;
-padding: 5px;
-background: #f3f3f3 url(imagens/fundo-caixa.png);
+    margin: 10px 10px;
+    padding: 5px;
+    background: #f3f3f3 url(imagens/fundo-caixa.png);
 }
 
 h2 {
     font-size: 1em;
-    background: #294c71;
+    background-color: #294c71;
     color: whitesmoke;
     padding: 5px;
     border-radius: 5px;
+    margin: auto;
+    
+
+    
+}
+
+h3{
+    background-color: #b10333;
+    padding:5px;
+    border-radius: 5px;
+    color: #f3f3f3;
+    
 }
 
 .caixa-conteudo {
@@ -271,6 +297,17 @@ h2 {
     padding: 5px;
     margin-top: 5px;
     border-radius: 5px;
+}
+
+/*noticias recentes */
+
+h4 {
+    font-size: 1em;
+    color:#294c71;
+    
+    padding: 5px;
+    border-radius: 5px;
+    margin: auto;
 }
 
 /*rodape*/
