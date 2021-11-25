@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+/*configuração padrão pagina */
+body,html{
+    margin: 0;
+    font: 16px "lato", sans-serif;
+    color: #777;
+    height: 100%;
+
+}
+
+.conteudo{
+    color: #777;
+    background-color: white;
+    text-align: justify;
+    padding: 50px 80px;
+}
+
+h3{
+    text-transform: uppercase;
+    color: #111;
+    text-align: center;
+
+}
+
+p{
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+/*parallax*/
+
+
+
+.caixa1{
+    background-image: url(imagens/imagem1.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+
+
+    
+
+}
+
+.caixa2 {
+
+    background-image: url(imagens/imagem2.jpg);
+    height: 100%;
+    opacity: 0.7;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+
+}
+
+.caixa3 {
+    height: 100%;
+    background-image: url(imagens/imagem3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+
+}
+
+.caixa4{
+    height: 100%;
+    background-image: url(imagens/imagem4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+
+}
+
+.titulo {
+
+    position: absolute;
+    text-align: center;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+}
+
+
+.titulo span.titulo1{
+
+    color: #fff;
+    background-color: #111;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 5px;
+
+}
+
