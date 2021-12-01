@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+@keyframes animação{
+    from {
+        background: green;
+        border-radius: 15px;
+        top: 0;
+        left: 0;
+    }
+    to {
+        background: blue;
+        border-radius: 300px;
+        top: 200px;
+        left: 200px;
+    }
+
+    
+}
+    
+
+header {
+    width: 350px;
+    height: 350px;
+    border-radius: 15px;
+    animation-name: animação;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: 5;
+    animation-direction: alternate;
+    position: relative;
+}
