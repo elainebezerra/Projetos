@@ -1,12 +1,81 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Museu</title>
+    <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
+    <div id="container"> <!--inicios container-->
+        
+        <header> <!--inicio header-->
+            <div id="logo"> <!--inicio logo-->
+                <h1><a href="">Museu Nacional</a></h1>
+
+            </div> <!-- fim logo-->
+
+            <nav> <!--inicio nav-->
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#"> Exposição</a></li>
+                    <li><a href="#"> Pesquisa</a></li>
+                    <li><a href="#"> Acervo</a></li>
+                    <li><a href="#">Video</Video></a></li>
+                    <li><a href="#">Fotos</a></li>
+                    <li><a href="#"> Contato</a></li>
+                </ul>
+    
+            </nav> <!--fim nav-->
+        </header> <!--fim header-->
+
+        <div id="principal"> <!--inico principal-->
+
+            <div id="conteudo"> <!--inicio conteudo-->
+                <section id="capa">
+                    <img src="imagens/museu.png" alt="">
+
+                </section> 
+
+            </div> <!--fim conteudo-->
+
+            <aside> <!-- Inicio aside-->
+                <section id="depoimento">
+                    <img src="imagens/depoimento.png" alt="depoimento">
+
+                </section>
+
+                <section id="visitar"> <!--inicio visita-->
+                    <h4> Faça uma visita</h4>
+                    <form action="">
+                        <fieldset>
+                            <legend> Selecione uma data</legend>
+                            <label for="data">Data</label>
+                            <input class="campo" type="date" id="data" value="dd/mm/aaaa">
+                            <br>
+
+                            <label for="qtd">Quantidade de pessoas</label>
+                            <input class="campo" type="number"  id="qtd" value="1">
+
+
+                        </fieldset>
+                        <input class="botao" type="submit" value="Verificar Disponibilidade">
+                    </form>
+
+                </section> <!--fim visita-->
+
+
+
+            </aside> <!--fim aside-->
+
+        </div> <!-- fim principal -->
+
+
+
+
+    </div> <!--fim container-->
     
 </body>
 </html>
